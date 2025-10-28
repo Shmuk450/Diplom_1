@@ -22,7 +22,7 @@ class TestBurger:
         b = Burger()
         b.set_buns(make_bun("black bun", 100))
         assert b.bun is not None
-        assert b.get_price() == 200  # две половинки булки
+        assert b.get_price() == 200  
 
     def test_add_ingredient_appends(self):
         b = Burger()
